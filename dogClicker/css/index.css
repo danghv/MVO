@@ -1,0 +1,35 @@
+li {
+    padding: 8px;
+    cursor: pointer;
+}
+li:hover {
+    background: grey;
+}
+img {
+    cursor: pointer;
+}
+
+
+span#click-counter {
+    color: blue;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div#admin {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    grid-column-gap: 20px;
+}
+
+div#form-admin {
+    display: grid;
+    grid-row-gap: 8px;
+}
+button {
+    height: 40px;
+}
+img#img-dog {
+    height: 200px;
+}

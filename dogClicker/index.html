@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>demo dog clicker</title>
+    <link rel="stylesheet" href="./css/index.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div id="dog-list">
+            <h1>List of dogs</h1>
+            <ul id="name-list">
+                
+            </ul>
+        </div>
+        <div id="dog-img">
+            <div>
+                <p>Number clicks of this dog: <span id="click-counter">0</span></p>
+            </div>
+            <h3 id="name-dog"></h3>
+            <div id="img-container">
+                    <img id="img-dog" src="img/dog1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="admin">
+        <button id="button-admin">Admin</button>
+        <div id="form-admin">
+            <label for="name">Name: <br>
+                <input id="form-name" type="text" name="name">
+            </label>
+            <label for="src"> Url Image: <br>
+                <input id="form-src" type="text" name="src">
+            </label>
+            <label for="clicks"> Number of Click: <br>
+                <input id="form-click" type="text" name="clicks">
+            </label>
+            <div class="buttons-style">
+                <button id="button-save">Save</button>
+                <button id="button-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
